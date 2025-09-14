@@ -1,9 +1,65 @@
 body {
-  font-family: sans-serif;
-  background: #f5f5f5;
-  text-align: center;
-  margin-top: 50px;
-}
-h1 {
-  color: #0070f3;
-}
+      font-family: sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      grid-template-rows: repeat(2, 40px);
+      gap: 20px;
+      position: relative;
+    }
+    .cell {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      position: relative;
+      cursor: pointer;
+      padding: 8px;
+      text-align: center;
+    }
+    .expand-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 2px 6px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .children {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      display: none;
+      min-width: 180px;
+      z-index: 10;
+    }
+    .children a {
+      display: block;
+      padding: 6px 10px;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #eee;
+    }
+    .children a:hover {
+      background: #f0f0f0;
+    }
+    .children a:last-child {
+      border-bottom: none;
+    }

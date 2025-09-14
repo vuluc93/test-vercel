@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "label": "Auth validate",
+    "target": "vscode:C:/projects/myapp/src/auth.py",
+    "children": [
+      {
+        "id": 1,
+        "label": "validate 1",
+        "target": "vscode:C:/projects/myapp/src/auth1.py"
+      },
+      {
+        "id": 2,
+        "label": "validate 2",
+        "target": "vscode:C:/projects/myapp/src/auth2.py"
+      },
+      {
+        "id": 3,
+        "label": "validate 3",
+        "target": "url:https://docs.google.com/document/d/XXXXX"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "label": "Service.handleRequest",
+    "target": "vscode:C:/projects/other/src/Service.java"
+  },
+  {
+    "id": 3,
+    "label": "API Spec (gdoc)",
+    "target": "url:https://docs.google.com/document/d/XXXXX"
+  },
+  {
+    "id": 4,
+    "label": "Quarter Plan",
+    "target": "file:C:/Users/me/Documents/plan.xlsx"
+  },
+  {
+    "id": 5,
+    "label": "View",
+    "target": "vscode:C:/projects/myapp/src/view.py",
+    "children": [
+      {
+        "id": 1,
+        "label": "view 1",
+        "target": "vscode:C:/projects/myapp/src/view1.py"
+      },
+      {
+        "id": 2,
+        "label": "view 2",
+        "target": "vscode:C:/projects/myapp/src/view2.py"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "label": "ChatGPT",
+    "target": "url:https://chatgpt.com/"
+  }
+]
