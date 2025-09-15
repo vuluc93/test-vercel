@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard" id="dashboard"></div>
+
+  <script>
+    // Hàm mở link (xử lý các loại target)
+    function openTarget(target) {
+      if (target.startsWith("url:")) {
+        window.open(target.replace("url:", ""), "_blank");
+      } else if (target.startsWith("file:")) {
+        window.open(target.replace("file:", ""), "_blank"); // tuỳ chỉnh thêm nếu muốn mở bằng app ngoài
+      } else if (target.startsWith("vscode:")) {
+        window.open(target, "_blank"); // VS Code URI
+      }
+    }
+
+    fetch("data.json")
+      .then(res => res.json())
+      .then(data => {
+		console.log(data);
+
+        const dashboard = document.getElementById('dashboard');
+
+        data.forEach(item => {
+          const cell = document.createElement('div');
+          cell.className = 'cell';
+          cell.textContent = item.label;
+
+          // click cell (trừ button) mở link chính
+          cell.onclick = (e) => {
+            if (e.target.tagName.toLowerCase() !== 'button') {
+              openTarget(item.target);
+            }
+          };
+
+          // Nếu có children thì thêm button
+          if (item.children && item.children.length > 0) {
+            const btn = document.createElement('button');
+            btn.className = 'expand-btn';
+            btn.textContent = '+';
+            cell.appendChild(btn);
+
+            const childrenBox = document.createElement('div');
+            childrenBox.className = 'children';
+
+            item.children.forEach(ch => {
+              const a = document.createElement('a');
+              a.textContent = ch.label;
+              a.href = "#";
+              a.onclick = (e) => {
+                e.preventDefault();
+                openTarget(ch.target);
+              };
+              childrenBox.appendChild(a);
+            });
+            cell.appendChild(childrenBox);
+
+            btn.onclick = (e) => {
+              e.stopPropagation();
+
+              // xác định expand hướng nào
+              if (item.id <= 3) { // hàng trên → expand lên trên
+                childrenBox.style.bottom = '100%';
+                childrenBox.style.top = 'auto';
+                childrenBox.style.marginBottom = '10px';
+              } else { // hàng dưới → expand xuống dưới
+                childrenBox.style.top = '100%';
+                childrenBox.style.bottom = 'auto';
+                childrenBox.style.marginTop = '10px';
+              }
+              childrenBox.style.display = 'block';
+
+              // disable button sau khi expand
+              btn.disabled = true;
+              btn.style.opacity = 0.5;
+            };
+          }
+
+          dashboard.appendChild(cell);
+        });
+      });
+  </script>
+</body>
+</html>
