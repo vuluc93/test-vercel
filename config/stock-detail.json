@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "label": "Stock.vue",
+    "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
+    "target": "features\\income\\components\\Stock.vue",
+    "search": "header-section"
+  },
+  {
+    "id": 2,
+    "label": "useStock.ts",
+    "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
+    "target": "features\\income\\composables\\useStock.ts",
+    "search": "export const useStock",
+    "children": [
+      {
+        "id": 1,
+        "label": "constants endpoints",
+        "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
+        "target": "\\features\\income\\constants.ts",
+        "search": "export const INCOME_ENDPOINTS"
+      },
+      {
+        "id": 2,
+        "label": "IncomeService",
+        "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
+        "target": "features\\income\\services\\index.ts",
+        "search": "export const IncomeService"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "label": "API Spec (gdoc)",
+    "target": "url:https://docs.google.com/document/d/XXXXX"
+  },
+  {
+    "id": 4,
+    "label": "Quarter Plan",
+    "target": "file:C:/Users/me/Documents/plan.xlsx"
+  },
+  {
+    "id": 5,
+    "label": "View",
+    "target": "vscode:C:/projects/myapp/src/view.py",
+    "children": [
+      {
+        "id": 1,
+        "label": "view 1",
+        "target": "vscode:C:/projects/myapp/src/view1.py"
+      },
+      {
+        "id": 2,
+        "label": "view 2",
+        "target": "vscode:C:/projects/myapp/src/view2.py"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "label": "ChatGPT",
+    "target": "url:https://chatgpt.com/"
+  }
+]
