@@ -1,64 +1,190 @@
 [
   {
     "id": 1,
-    "label": "Stock.vue",
-    "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
-    "target": "features\\income\\components\\Stock.vue",
-    "search": "header-section"
+    "label": "StockDetail.vue",
+    "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\components\\StockDetail.vue",
+    "search": "header-section",
+    "children": [
+      {
+        "label": "-onClickOpenClose",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\components\\StockDetail.vue",
+        "search": "function onClickOpenClose("
+      },
+      {
+        "label": "-setLeftColumnWidth",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\components\\Stock.vue",
+        "search": "function setLeftColumnWidth"
+      },
+      {
+        "label": "css .cost-management-table",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\assets\\css\\attendance-table.css",
+        "search": ".cost-management-table {"
+      },
+      {
+        "label": "i18n",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\i18n\\locales\\ja.json",
+        "search": "販売区分"
+      },
+      {
+        "label": "page index",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\pages\\income\\stock\\index.vue",
+        "search": "<StockPage v-if"
+      }
+    ]
   },
   {
     "id": 2,
-    "label": "useStock.ts",
-    "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
-    "target": "features\\income\\composables\\useStock.ts",
-    "search": "export const useStock",
+    "label": "useStockDetail.ts",
+    "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStockDetail.ts",
+    "search": "export const useStockDetail",
     "children": [
       {
-        "id": 1,
-        "label": "constants endpoints",
-        "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
-        "target": "\\features\\income\\constants.ts",
-        "search": "export const INCOME_ENDPOINTS"
+        "label": "-budgetRatio()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
+        "search": "const budgetRatio ="
       },
       {
-        "id": 2,
-        "label": "IncomeService",
-        "project": "D:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt",
-        "target": "features\\income\\services\\index.ts",
-        "search": "export const IncomeService"
+        "label": "--test budgetRatio",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\composables\\useStock.test.ts",
+        "search": "budgetRatio should return correct value"
+      },
+      {
+        "label": "-costRate()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
+        "search": "const costRate ="
+      },
+      {
+        "label": "-cumulativeRates()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
+        "search": "const cumulativeRates ="
+      },
+      {
+        "label": "-totalCostRate()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
+        "search": "const totalCostRate ="
+      },
+      {
+        "label": "-budgetRatioEnd()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
+        "search": "const budgetRatioEnd ="
+      },
+      {
+        "label": "-totalCostRateEnd()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
+        "search": "const totalCostRateEnd ="
       }
     ]
   },
   {
     "id": 3,
-    "label": "API Spec (gdoc)",
-    "target": "url:https://docs.google.com/document/d/XXXXX"
+    "label": "async stockDetail",
+    "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\services\\index.ts",
+    "search": "async stockDetail(",
+    "children": [
+      {
+        "label": "-test service loadStock",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\services\\index.spec.ts",
+        "search": "describe('loadStock'"
+      },
+      {
+        "label": "interface Stock",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\types\\index.ts",
+        "search": "export interface Stock {"
+      },
+      {
+        "label": "config endpoints",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\constants.ts",
+        "search": "'/income/stock/'"
+      }
+    ]
   },
   {
     "id": 4,
-    "label": "Quarter Plan",
-    "target": "file:C:/Users/me/Documents/plan.xlsx"
+    "label": "apps.income.models",
+    "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+    "search": "from apps.income.models.bills import Bills",
+    "children": [
+      {
+        "label": "PurchaseFactory",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\factories\\purchases_factory.py",
+        "search": "PurchaseFactory"
+      }
+    ]
   },
   {
     "id": 5,
-    "label": "View",
-    "target": "vscode:C:/projects/myapp/src/view.py",
+    "label": "def stock_detail",
+    "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+    "search": "def stock_detail(",
     "children": [
       {
-        "id": 1,
-        "label": "view 1",
-        "target": "vscode:C:/projects/myapp/src/view1.py"
+        "label": "-get_division_base",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+        "search": "def get_division_base"
       },
       {
-        "id": 2,
-        "label": "view 2",
-        "target": "vscode:C:/projects/myapp/src/view2.py"
+        "label": "--get_budget",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+        "search": "def get_budget("
+      },
+      {
+        "label": "--get_bill",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+        "search": "def get_bill("
+      },
+      {
+        "label": "---apply_transfer_logic",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+        "search": "def apply_transfer_logic("
+      },
+      {
+        "label": "----test_transfer_day_31",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
+        "search": "test_get_bill_with_transfer_day_31"
+      },
+      {
+        "label": "-get_business_days",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+        "search": "def get_business_days("
+      },
+      {
+        "label": "-get_stock_month_valid",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
+        "search": "def get_stock_month_valid("
       }
     ]
   },
   {
     "id": 6,
-    "label": "ChatGPT",
-    "target": "url:https://chatgpt.com/"
+    "label": "class StockDetailAPIView",
+    "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\views\\stock_detail.py",
+    "search": "class StockDetailAPIView",
+    "children": [
+      {
+        "label": "-test_load_stocks",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
+        "search": "test_load_stocks("
+      },
+      {
+        "label": "RequestSerializer",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\stock.py",
+        "search": "StockRequestSerializer"
+      },
+      {
+        "label": "ResponseSerializer",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\stock.py",
+        "search": "LoadStockResponseSerializer"
+      },
+      {
+        "label": "constants",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\constants.py",
+        "search": "DAY_OF_WEEK_NAMES"
+      },
+      {
+        "label": "config endpoints",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\urls.py",
+        "search": "# Stock endpoints"
+      }
+    ]
   }
 ]

@@ -8,9 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const configFile = baseName + ".json";      // "stock.json"
 
   function openTarget(item) {
-    // Build URL theo cấu trúc mới trong JSON
-    const url = `http://localhost:8080/?file=${encodeURIComponent(item.project + "\\" + item.target)}&search=${encodeURIComponent(item.search)}`;
-
+    const url = `http://localhost:8080/?file=${encodeURIComponent(item.file)}&search=${encodeURIComponent(item.search)}`;
     console.log("openTarget url:", url);
 
     fetch(url)
@@ -60,8 +58,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const childrenBox = document.createElement('div');
           childrenBox.className = 'children';
+          const children = item.id > 3 ? item.children : [...item.children].reverse();
 
-          item.children.forEach(ch => {
+          children.forEach(ch => {
             const a = document.createElement('a');
             a.textContent = ch.label;
             a.href = "#";
@@ -75,20 +74,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
           btn.onclick = (e) => {
             e.stopPropagation();
-
-            // xác định expand hướng nào
-            if (item.id <= 3) { // hàng trên → expand lên trên
+            if (item.id <= 3) {
               childrenBox.style.bottom = '100%';
               childrenBox.style.top = 'auto';
               childrenBox.style.marginBottom = '10px';
-            } else { // hàng dưới → expand xuống dưới
+            } else {
               childrenBox.style.top = '100%';
               childrenBox.style.bottom = 'auto';
               childrenBox.style.marginTop = '10px';
             }
             childrenBox.style.display = 'block';
 
-            // disable button sau khi expand
             btn.disabled = true;
             btn.style.opacity = 0.5;
           };
@@ -100,4 +96,25 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((err) => {
       console.error("Không load được config:", configFile, err);
     });
+});
+
+document.querySelectorAll("a[data-file][data-search]").forEach(a => {
+  a.addEventListener("click", (e) => {
+    e.preventDefault(); // chặn mở link #
+
+    const file = a.dataset.file;
+    const search = a.dataset.search;
+
+    const url = `http://localhost:8080/?file=${encodeURIComponent(file)}&search=${encodeURIComponent(search)}`;
+    
+    fetch(url)
+      .then((res) => res.text())
+      .then((msg) => {
+        console.log("Server response:", msg);
+      })
+      .catch((err) => {
+        console.error("Error:", err);
+        alert("Không gọi được server. Bạn đã chạy server.ps1 chưa?");
+      });
+  });
 });
