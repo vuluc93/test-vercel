@@ -12,7 +12,7 @@
       },
       {
         "label": "-setLeftColumnWidth",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\components\\Stock.vue",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\components\\StockDetail.vue",
         "search": "function setLeftColumnWidth"
       },
       {
@@ -82,9 +82,9 @@
     "search": "async stockDetail(",
     "children": [
       {
-        "label": "-test service loadStock",
+        "label": "-test service stockDetail",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\services\\index.spec.ts",
-        "search": "describe('loadStock'"
+        "search": "describe('stockDetail'"
       },
       {
         "label": "interface Stock",
@@ -161,9 +161,9 @@
     "search": "class StockDetailAPIView",
     "children": [
       {
-        "label": "-test_load_stocks",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
-        "search": "test_load_stocks("
+        "label": "-test_stock_detail",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock_detail.py",
+        "search": "test_stock_detail("
       },
       {
         "label": "RequestSerializer",

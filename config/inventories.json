@@ -81,14 +81,15 @@
     ]
   },
   {
+	"id": 3,
     "label": "service inventories",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\services\\index.ts",
     "search": "async inventories(",
     "children": [
       {
-        "label": "-test service loadStock",
+        "label": "-test service inventories",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\services\\index.spec.ts",
-        "search": "describe('loadStock'"
+        "search": "describe('inventories'"
       },
       {
         "label": "interface Stock",
@@ -98,7 +99,7 @@
       {
         "label": "config endpoints",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\constants.ts",
-        "search": "'/income/stock/'"
+        "search": "'/income/inventories/'"
       }
     ]
   },
@@ -187,7 +188,7 @@
       {
         "label": "config endpoints",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\urls.py",
-        "search": "# Stock endpoints"
+        "search": "# Inventories endpoints"
       }
     ]
   }

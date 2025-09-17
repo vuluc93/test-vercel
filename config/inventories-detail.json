@@ -99,7 +99,7 @@
       {
         "label": "config endpoints",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\constants.ts",
-        "search": "'/income/stock/'"
+        "search": "'/income/inventories/'"
       }
     ]
   },
@@ -188,7 +188,7 @@
       {
         "label": "config endpoints",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\urls.py",
-        "search": "# Stock endpoints"
+        "search": "# Inventories endpoints"
       }
     ]
   }
