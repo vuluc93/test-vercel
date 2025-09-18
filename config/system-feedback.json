@@ -67,7 +67,7 @@
     "search": "async postSystemFeedback(",
     "children": [
       {
-        "label": "-interface post feedback",
+        "label": "interface post feedback",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\attendance\\types\\index.ts",
         "search": "interface SystemFeedbackResponse"
       },
@@ -82,7 +82,7 @@
         "search": "async getSystemFeedbackLog("
       },
       {
-        "label": "-interface get",
+        "label": "interface get",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\attendance\\types\\index.ts",
         "search": "interface SystemFeedbackLogResponse"
       },
@@ -156,17 +156,17 @@
     "search": "class SystemFeedbackAPIView(APIView)",
     "children": [
       {
-        "label": "-RequestSerializer",
+        "label": "RequestSerializer",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\attendance\\serializers\\system_feedback.py",
         "search": "class FeedbackViewConditionSerializer"
       },
       {
-        "label": "-ResponseSerializer",
+        "label": "ResponseSerializer",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\attendance\\serializers\\system_feedback.py",
         "search": "class SystemFeedbackResponseSerializer"
       },
       {
-        "label": "test post_feedback",
+        "label": "-test post_feedback",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\attendance\\tests\\test_system_feedback.py",
         "search": "test_post_feedback_success"
       },
@@ -176,17 +176,17 @@
         "search": "class SystemFeedbackLogAPIView"
       },
       {
-        "label": "-RequestSerializerLog",
+        "label": "RequestSerializerLog",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\attendance\\serializers\\system_feedback.py",
         "search": "class FeedbackLogRequestSerializer"
       },
       {
-        "label": "-ResponseSerializerLog",
+        "label": "ResponseSerializerLog",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\attendance\\serializers\\system_feedback.py",
         "search": "class SystemFeedbackLogResponseSerializer"
       },
       {
-        "label": "test get_feedback_log",
+        "label": "-test get_feedback_log",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\attendance\\tests\\test_system_feedback.py",
         "search": "test_get_feedback_log_with_no_record"
       },

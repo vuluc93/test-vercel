@@ -116,7 +116,7 @@
     "search": "class InventoriesAPIView",
     "children": [
       {
-        "label": "test inventories",
+        "label": "-test inventories",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_inventories.py",
         "search": "def authenticated_client("
       },

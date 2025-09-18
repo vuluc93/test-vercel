@@ -39,7 +39,7 @@
     "search": "export const useStockDetail",
     "children": [
       {
-        "label": "--test loadData()",
+        "label": "--test loadData",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\composables\\useStockDetail.test.ts",
         "search": "loadData should call"
       },
@@ -67,7 +67,7 @@
   },
   {
     "id": 3,
-    "label": "async stockDetail",
+    "label": "service stockDetail",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\services\\index.ts",
     "search": "async stockDetail(",
     "children": [
@@ -126,7 +126,7 @@
   },
   {
     "id": 6,
-    "label": "class StockDetailAPIView",
+    "label": "StockDetailAPIView",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\views\\stock_detail.py",
     "search": "class StockDetailAPIView",
     "children": [

@@ -136,7 +136,7 @@
         "search": "InventoriesDetailTotalResponseSerializer"
       },
       {
-        "label": "test API total",
+        "label": "-test API total",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_inventories_detail.py",
         "search": "def test_inventories_total_success("
       },
@@ -151,7 +151,7 @@
         "search": "InventoriesDetailResponseSerializer"
       },
       {
-        "label": "test API detail",
+        "label": "-test API detail",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_inventories_detail.py",
         "search": "def test_inventories_detail_success("
       },

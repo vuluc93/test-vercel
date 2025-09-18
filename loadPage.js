@@ -68,6 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
               e.preventDefault();
               openTarget(ch);
             };
+			if (ch.label.includes('-test')) {
+				a.style.color = '#999';
+			}
             childrenBox.appendChild(a);
           });
           cell.appendChild(childrenBox);

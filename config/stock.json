@@ -118,42 +118,42 @@
   },
   {
     "id": 5,
-    "label": "def load_stocks",
+    "label": "load_stocks()",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
     "search": "def load_stocks",
     "children": [
       {
-        "label": "-get_division_base",
+        "label": "-get_division_base()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
         "search": "def get_division_base"
       },
       {
-        "label": "--get_budget",
+        "label": "-get_budget()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
         "search": "def get_budget("
       },
       {
-        "label": "--get_bill",
+        "label": "-get_bill()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
         "search": "def get_bill("
       },
       {
-        "label": "---apply_transfer_logic",
+        "label": "--apply_transfer_logic()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
         "search": "def apply_transfer_logic("
       },
       {
-        "label": "----test_transfer_day_31",
+        "label": "---test_transfer_day_31",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
         "search": "test_get_bill_with_transfer_day_31"
       },
       {
-        "label": "-get_business_days",
+        "label": "-get_business_days()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
         "search": "def get_business_days("
       },
       {
-        "label": "-get_stock_month_valid",
+        "label": "-get_stock_month_valid()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
         "search": "def get_stock_month_valid("
       }
