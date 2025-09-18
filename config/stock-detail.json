@@ -27,8 +27,8 @@
       },
       {
         "label": "page index",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\pages\\income\\stock\\index.vue",
-        "search": "<StockPage v-if"
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\pages\\income\\stock\\stock-detail\\index.vue",
+        "search": "import StockDetailPage"
       }
     ]
   },
@@ -39,39 +39,29 @@
     "search": "export const useStockDetail",
     "children": [
       {
-        "label": "-budgetRatio()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const budgetRatio ="
+        "label": "--test loadData()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\composables\\useStockDetail.test.ts",
+        "search": "loadData should call"
       },
       {
-        "label": "--test budgetRatio",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\composables\\useStock.test.ts",
-        "search": "budgetRatio should return correct value"
+        "label": "-getCumulativeSum()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStockDetail.ts",
+        "search": "const getCumulativeSum ="
       },
       {
-        "label": "-costRate()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const costRate ="
+        "label": "-getDayTotal()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStockDetail.ts",
+        "search": "const getDayTotal ="
       },
       {
-        "label": "-cumulativeRates()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const cumulativeRates ="
+        "label": "-getCumulativeAll()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStockDetail.ts",
+        "search": "const getCumulativeAll ="
       },
       {
-        "label": "-totalCostRate()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const totalCostRate ="
-      },
-      {
-        "label": "-budgetRatioEnd()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const budgetRatioEnd ="
-      },
-      {
-        "label": "-totalCostRateEnd()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const totalCostRateEnd ="
+        "label": "-getAllSummaryCells()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStockDetail.ts",
+        "search": "const getAllSummaryCells ="
       }
     ]
   },
@@ -87,9 +77,9 @@
         "search": "describe('stockDetail'"
       },
       {
-        "label": "interface Stock",
+        "label": "interface StockDetail",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\types\\index.ts",
-        "search": "export interface Stock {"
+        "search": "export interface StockManagementHeader"
       },
       {
         "label": "config endpoints",
@@ -113,44 +103,24 @@
   },
   {
     "id": 5,
-    "label": "def stock_detail",
+    "label": "stock_detail()",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
     "search": "def stock_detail(",
     "children": [
       {
-        "label": "-get_division_base",
+        "label": "-get_purchase()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_division_base"
+        "search": "def get_purchase_for_detail("
       },
       {
-        "label": "--get_budget",
+        "label": "--get_purchase_money()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_budget("
+        "search": "def get_purchase_money_for_detail("
       },
       {
-        "label": "--get_bill",
+        "label": "-get_petty_cash_money()",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_bill("
-      },
-      {
-        "label": "---apply_transfer_logic",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def apply_transfer_logic("
-      },
-      {
-        "label": "----test_transfer_day_31",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
-        "search": "test_get_bill_with_transfer_day_31"
-      },
-      {
-        "label": "-get_business_days",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_business_days("
-      },
-      {
-        "label": "-get_stock_month_valid",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_stock_month_valid("
+        "search": "def get_petty_cash_money_for_detail("
       }
     ]
   },
@@ -168,12 +138,12 @@
       {
         "label": "RequestSerializer",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\stock.py",
-        "search": "StockRequestSerializer"
+        "search": "StockDetailRequestSerializer"
       },
       {
         "label": "ResponseSerializer",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\stock.py",
-        "search": "LoadStockResponseSerializer"
+        "search": "StockDetailResponseSerializer"
       },
       {
         "label": "constants",

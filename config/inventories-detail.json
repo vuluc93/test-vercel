@@ -3,7 +3,7 @@
     "id": 1,
     "label": "InventoriesDetail.vue",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\components\\InventoriesDetail.vue",
-    "search": "header-section",
+    "search": "inventories-detail-header",
     "children": [
       {
         "label": "inventories-detail-total",
@@ -32,8 +32,8 @@
       },
       {
         "label": "page index",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\pages\\income\\stock\\index.vue",
-        "search": "<StockPage v-if"
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\pages\\income\\inventories\\detail\\index.vue",
+        "search": "import InventoriesDetailPage"
       }
     ]
   },
@@ -44,57 +44,47 @@
     "search": "export const useInventoriesDetail",
     "children": [
       {
-        "label": "-budgetRatio()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const budgetRatio ="
+        "label": "-loadDataTotal()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useInventoriesDetail.ts",
+        "search": "const loadDataTotal ="
       },
       {
-        "label": "--test budgetRatio",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\composables\\useStock.test.ts",
-        "search": "budgetRatio should return correct value"
-      },
-      {
-        "label": "-costRate()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const costRate ="
-      },
-      {
-        "label": "-cumulativeRates()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const cumulativeRates ="
-      },
-      {
-        "label": "-totalCostRate()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const totalCostRate ="
-      },
-      {
-        "label": "-budgetRatioEnd()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const budgetRatioEnd ="
-      },
-      {
-        "label": "-totalCostRateEnd()",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useStock.ts",
-        "search": "const totalCostRateEnd ="
+        "label": "-loadDataDetail()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\composables\\useInventoriesDetail.ts",
+        "search": "const loadDataDetail ="
       }
     ]
   },
   {
     "id": 3,
-    "label": "service inventoriesDetailTotal",
+    "label": "service inventoriesTotal",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\services\\index.ts",
     "search": "async inventoriesDetailTotal(",
     "children": [
       {
-        "label": "-test service loadStock",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\services\\index.spec.ts",
-        "search": "describe('loadStock'"
+        "label": "interface total",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\types\\index.ts",
+        "search": "export interface InventoriesDetail {"
       },
       {
-        "label": "interface Stock",
+        "label": "-test service total",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\services\\index.spec.ts",
+        "search": "describe('inventoriesTotal'"
+      },
+      {
+        "label": "service inventoriesDetail",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\services\\index.ts",
+        "search": "async inventoriesDetail("
+      },
+      {
+        "label": "interface detail",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\types\\index.ts",
-        "search": "export interface Stock {"
+        "search": "export interface InventoriesModel {"
+      },
+      {
+        "label": "-test service detail",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\tests\\features\\income\\services\\index.spec.ts",
+        "search": "describe('inventoriesDetail'"
       },
       {
         "label": "config endpoints",
@@ -118,44 +108,14 @@
   },
   {
     "id": 5,
-    "label": "def inventories_detail_total",
+    "label": "inventories_detail_total()",
     "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\inventories.py",
     "search": "def inventories_detail_total(",
     "children": [
       {
-        "label": "-get_division_base",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_division_base"
-      },
-      {
-        "label": "--get_budget",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_budget("
-      },
-      {
-        "label": "--get_bill",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_bill("
-      },
-      {
-        "label": "---apply_transfer_logic",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def apply_transfer_logic("
-      },
-      {
-        "label": "----test_transfer_day_31",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
-        "search": "test_get_bill_with_transfer_day_31"
-      },
-      {
-        "label": "-get_business_days",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_business_days("
-      },
-      {
-        "label": "-get_stock_month_valid",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\stock.py",
-        "search": "def get_stock_month_valid("
+        "label": "inventories_detail()",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\services\\inventories.py",
+        "search": "def inventories_detail("
       }
     ]
   },
@@ -166,24 +126,39 @@
     "search": "class InventoriesTotalAPIView",
     "children": [
       {
-        "label": "-test_load_stocks",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_stock.py",
-        "search": "test_load_stocks("
+        "label": "RequestTotalSerializer",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\inventories.py",
+        "search": "InventoriesDetailTotalRequestSerializer"
+      },
+      {
+        "label": "ResponseTotalSerializer",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\inventories.py",
+        "search": "InventoriesDetailTotalResponseSerializer"
+      },
+      {
+        "label": "test API total",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_inventories_detail.py",
+        "search": "def test_inventories_total_success("
       },
       {
         "label": "RequestSerializer",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\stock.py",
-        "search": "StockRequestSerializer"
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\inventories.py",
+        "search": "InventoriesDetailRequestSerializer"
       },
       {
         "label": "ResponseSerializer",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\stock.py",
-        "search": "LoadStockResponseSerializer"
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\serializers\\inventories.py",
+        "search": "InventoriesDetailResponseSerializer"
+      },
+      {
+        "label": "test API detail",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\tests\\test_inventories_detail.py",
+        "search": "def test_inventories_detail_success("
       },
       {
         "label": "constants",
         "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-api\\apps\\income\\constants.py",
-        "search": "DAY_OF_WEEK_NAMES"
+        "search": "CLASS_TEMP_REGISTRATION"
       },
       {
         "label": "config endpoints",
