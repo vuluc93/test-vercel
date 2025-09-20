@@ -101,14 +101,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-document.querySelectorAll("a[data-file][data-search]").forEach(a => {
+document.querySelectorAll("a.note-btn").forEach(a => {
   a.addEventListener("click", (e) => {
-    e.preventDefault(); // chặn mở link #
+    e.preventDefault();
+	
+	const path = window.location.pathname;
+	const page = path.substring(path.lastIndexOf("/") + 1);
+	const baseName = page.replace(".html", "")
+	const noteFile = `C:\\Users\\LucVH\\ProcessFiles\\${baseName}.txt`;
 
-    const file = a.dataset.file;
-    const search = a.dataset.search;
-
-    const url = `http://localhost:8080/?file=${encodeURIComponent(file)}&search=${encodeURIComponent(search)}`;
+    const url = `http://localhost:8080/?file=${encodeURIComponent(noteFile)}`;
     
     fetch(url)
       .then((res) => res.text())
