@@ -108,18 +108,19 @@ document.querySelectorAll("a.note-btn").forEach(a => {
 	const path = window.location.pathname;
 	const page = path.substring(path.lastIndexOf("/") + 1);
 	const baseName = page.replace(".html", "")
-	const noteFile = `C:\\Users\\LucVH\\ProcessFiles\\${baseName}.txt`;
+	// const noteFile = `C:\\Users\\LucVH\\ProcessFiles\\${baseName}.txt`;
+  const noteFile = `D:\\LeocSystem\\leocsystem-online\\feature\\${baseName}.txt`;
 
-    const url = `http://localhost:8080/?file=${encodeURIComponent(noteFile)}`;
-    
-    fetch(url)
-      .then((res) => res.text())
-      .then((msg) => {
-        console.log("Server response:", msg);
-      })
-      .catch((err) => {
-        console.error("Error:", err);
-        alert("Không gọi được server. Bạn đã chạy server.ps1 chưa?");
-      });
+  const url = `http://localhost:8080/?file=${encodeURIComponent(noteFile)}`;
+  
+  fetch(url)
+    .then((res) => res.text())
+    .then((msg) => {
+      console.log("Server response:", msg);
+    })
+    .catch((err) => {
+      console.error("Error:", err);
+      alert("Không gọi được server. Bạn đã chạy server.ps1 chưa?");
+    });
   });
 });
