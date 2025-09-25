@@ -1,0 +1,31 @@
+[
+	{
+		"id": 1,
+	  "label": "WindowBill.xaml",
+	  "file": "d:\\LeocSystem\\old\\leocsystem-office\\LeocSystem\\Sales\\WindowBill.xaml",
+	  "search": "Window x:Class=\"LeocSystem.Sales.WindowBill\"",
+	  "children": [
+	  ]
+	},
+	{
+		"id": 2,
+	  "label": "WindowBill.xaml.cs",
+	  "file": "d:\\LeocSystem\\old\\leocsystem-office\\LeocSystem\\Sales\\WindowBill.xaml.cs",
+	  "search": "public partial class WindowBill : Window",
+	  "children": [
+	  ]
+	},
+	{
+		"id": 3,
+	  "label": "LeocSystemLibrary.Bill",
+	  "file": "d:\\LeocSystem\\old\\leocsystem-office\\LeocSystemLibrary\\Common\\Data\\Bills.cs",
+	  "search": "namespace LeocSystemLibrary.Common.Data",
+	  "children": [
+		{
+		  "label": "class BillsCopy",
+		  "file": "d:\\LeocSystem\\old\\leocsystem-office\\LeocSystem\\Sales\\SalesUtil.cs",
+		  "search": "public class BillsCopy"
+		}
+	  ]
+	}
+]
