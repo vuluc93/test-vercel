@@ -27,5 +27,40 @@
 		  "search": "public class BillsCopy"
 		}
 	  ]
+	},
+	{
+		"id": 4,
+	  "label": "WindowBillEntry",
+	  "file": "d:\\LeocSystem\\old\\leocsystem-office\\LeocSystem\\Sales\\WindowBillEntry.xaml.cs",
+	  "search": "public partial class WindowBillEntry : Window"
+	},
+	{
+		"id": 5,
+	  "label": "WindowBillExport",
+	  "file": "d:\\LeocSystem\\old\\leocsystem-office\\LeocSystem\\Sales\\WindowBillExport.xaml.cs",
+	  "search": "public partial class WindowBillExport : Window"
+	},
+	{
+		"id": 6,
+	  "label": "Bill.vue",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\income\\components\\Bill.vue",
+	  "search": "function initHeader(",
+	  "children": [
+		{
+		  "label": "BillEntry.vue",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\income\\components\\BillEntry.vue",
+		  "search": "function initHeader("
+		},
+		{
+		  "label": "useBill.ts",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\income\\composables\\useBill.ts",
+		  "search": "export function useBill("
+		},
+		{
+		  "label": "useBillEntry.ts",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\income\\composables\\useBillEntry.ts",
+		  "search": "export function useBillEntry("
+		}
+	  ]
 	}
 ]
