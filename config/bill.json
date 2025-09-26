@@ -6,6 +6,11 @@
 	  "search": "_[Bill]_",
 	  "children": [
 		{
+		  "label": "-onMounted",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\components\\Bill.vue",
+		  "search": "onMounted(async"
+		},
+		{
 		  "label": "page bills",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\sales\\bills\\index.vue",
 		  "search": "_[Bill]_"
@@ -14,6 +19,11 @@
 		  "label": "page other-sales",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\sales\\other-sales\\index.vue",
 		  "search": "_[Bill]_"
+		},
+		{
+		  "label": "i18n",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\i18n\\locales\\ja.json",
+		  "search": "\"bill\": {"
 		}
 	  ]
 	},
@@ -27,14 +37,40 @@
 		  "label": "--test bill",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\sales\\composables\\usebill.test.ts",
 		  "search": "_[Bill]_"
+		},
+		{
+		  "label": "contentRendered",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
+		  "search": "const contentRendered ="
+		},
+		{
+		  "label": "initHeader",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
+		  "search": "const initHeader ="
+		},
+		{
+		  "label": "initSpread",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
+		  "search": "const initSpread ="
+		},
+		{
+		  "label": "deleteBill",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
+		  "search": "const deleteBill ="
 		}
 	  ]
 	},
 	{
+		"id": 3,
 	  "label": "service bill",
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\services\\index.ts",
 	  "search": "_[Bill]_",
 	  "children": [
+		{
+		  "label": "-test service bill",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\sales\\services\\index.spec.ts",
+		  "search": "_[Bill]_"
+		},
 		{
 		  "label": "interface bill",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\types\\index.ts",
