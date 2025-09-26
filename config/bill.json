@@ -6,7 +6,7 @@
 	  "search": "_[Bill]_",
 	  "children": [
 		{
-		  "label": "page Bills",
+		  "label": "page bills",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\sales\\bills\\index.vue",
 		  "search": "_[Bill]_"
 		},
@@ -26,6 +26,23 @@
 		{
 		  "label": "--test bill",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\sales\\composables\\usebill.test.ts",
+		  "search": "_[Bill]_"
+		}
+	  ]
+	},
+	{
+	  "label": "service bill",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\services\\index.ts",
+	  "search": "_[Bill]_",
+	  "children": [
+		{
+		  "label": "interface bill",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\types\\index.ts",
+		  "search": "_[Bill]_"
+		},
+		{
+		  "label": "config enpoint",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\constants.ts",
 		  "search": "_[Bill]_"
 		}
 	  ]
