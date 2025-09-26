@@ -1,0 +1,33 @@
+[
+	{
+		"id": 1,
+	  "label": "Bill component",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\components\\Bill.vue",
+	  "search": "_[Bill]_",
+	  "children": [
+		{
+		  "label": "page Bills",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\sales\\bills\\index.vue",
+		  "search": "_[Bill]_"
+		},
+		{
+		  "label": "page other-sales",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\sales\\other-sales\\index.vue",
+		  "search": "_[Bill]_"
+		}
+	  ]
+	},
+	{
+		"id": 2,
+	  "label": "useBill.ts",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\usebill.ts",
+	  "search": "_[Bill]_",
+	  "children": [
+		{
+		  "label": "--test bill",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\sales\\composables\\usebill.test.ts",
+		  "search": "_[Bill]_"
+		}
+	  ]
+	}
+]
