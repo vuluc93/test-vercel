@@ -82,5 +82,38 @@
 		  "search": "_[Bill]_"
 		}
 	  ]
+	},
+	{
+		"id": 4,
+	  "label": "model bills",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\bills.py",
+	  "search": "class Bills(",
+	  "children": []
+	},
+	{
+		"id": 5,
+	  "label": "bill_result()",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+	  "search": "_[Bill]_",
+	  "children": [
+	    {
+		  "label": "test BillAPI",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill.py",
+		  "search": "_[Bill]_"
+		}
+	  ]
+	},
+	{
+		"id": 6,
+	  "label": "BillAPIView",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\views\\bill.py",
+	  "search": "_[Bill]_",
+	  "children": [
+		{
+		  "label": "RequestSerializer",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\serializers\\bill.py",
+		  "search": "_[Bill]_"
+		}
+	  ]
 	}
 ]
