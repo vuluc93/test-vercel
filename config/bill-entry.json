@@ -113,7 +113,7 @@
 		  "label": "RequestSerializer",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\serializers\\bill.py",
 		  "search": "# _[BillEntry]_"
-		}
+		},
 		{
 		  "label": "constants",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\constants.py",
