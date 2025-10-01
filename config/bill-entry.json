@@ -82,5 +82,48 @@
 		  "search": "_[Bill]_"
 		}
 	  ]
+	},
+	{
+		"id": 4,
+	  "label": "model BillDetails",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\bill_details.py",
+	  "search": "class BillDetails(",
+	  "children": []
+	},
+	{
+		"id": 5,
+	  "label": "bill_details()",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+	  "search": "def bill_details(",
+	  "children": [
+	    {
+		  "label": "-test BillDetailAPI",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill_details.py",
+		  "search": "_[BillEntry]_"
+		}
+	  ]
+	},
+	{
+		"id": 6,
+	  "label": "BillDetailsAPIView",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\views\\bill_details.py",
+	  "search": "_[BillEntry]_",
+	  "children": [
+		{
+		  "label": "RequestSerializer",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\serializers\\bill.py",
+		  "search": "# _[BillEntry]_"
+		}
+		{
+		  "label": "constants",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\constants.py",
+		  "search": "# Bill Type Constants"
+		},
+		{
+		  "label": "config endpoints",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\urls.py",
+		  "search": "# Bill endpoints"
+		}
+	  ]
 	}
 ]
