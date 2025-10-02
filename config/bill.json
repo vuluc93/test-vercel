@@ -21,6 +21,11 @@
 		  "search": "_[Bill]_"
 		},
 		{
+		  "label": "menu 請求依頼",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\top-menu\\composables\\useTopMenuData.ts",
+		  "search": "'/images/icons/bill.png'"
+		},
+		{
 		  "label": "i18n",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\i18n\\locales\\ja.json",
 		  "search": "\"bill\": {"
