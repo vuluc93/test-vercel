@@ -74,7 +74,7 @@
 		{
 		  "label": "interface billEntry",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\types\\index.ts",
-		  "search": "_[Bill]_"
+		  "search": "_[BillEntry]_"
 		},
 		{
 		  "label": "config enpoint",
@@ -100,6 +100,16 @@
 		  "label": "-test BillDetailAPI",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill_details.py",
 		  "search": "_[BillEntry]_"
+		},
+		{
+		  "label": "bill_details_update()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+		  "search": "def bill_details_update("
+		},
+		{
+		  "label": "bill_delete()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+		  "search": "def bill_delete("
 		}
 	  ]
 	},
