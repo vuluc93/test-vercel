@@ -41,15 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
         };
         cell.appendChild(btn);
 
-        // cell.textContent = item.label;
-
-        // // click cell (trừ button) mở link chính
-        // cell.onclick = (e) => {
-        //   if (e.target.tagName.toLowerCase() !== "button") {
-        //     openTarget(item);
-        //   }
-        // };
-
         if (item.children && item.children.length > 0) {
           const btn = document.createElement('button');
           btn.className = 'expand-btn';

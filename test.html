@@ -36,13 +36,13 @@
 	  try {
 		const files = JSON.parse(text);
 
-		if (files.length === 0) {
+		if (files.Count === 0) {
 		  list.innerHTML = "<li>No changes</li>";
 		  document.getElementById("commit-box").style.display = "none";
 		} else {
-		  files.forEach(f => {
+		  files.value.forEach(f => {
 			const li = document.createElement("li");
-			li.textContent = ` ${f.file}`;
+			li.textContent = ` ${f}`;
 			list.appendChild(li);
 		  });
 		  document.getElementById("commit-box").style.display = "block";
