@@ -4,12 +4,26 @@
   <meta charset="UTF-8">
   <title>Dashboard</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+	.main {
+	  margin-top: 50px;
+	}
+	.status-item {
+	  color: blue;
+	  text-decoration: underline;
+	  cursor: pointer;
+	  margin: 4px 0;
+	}
+	.status-item:hover {
+	  color: darkblue;
+	}
+  </style>
 </head>
 <body>
   <a href="index.html" class="home-btn">Home</a>
   <a href="#" class="note-btn">Open Note</a>
-  
 	<div class="dashboard" id="dashboard">
+	<div class="main">
 		<button onclick="showGitStatus()">Check Git Status</button>
 		<ul id="status-list"></ul>
 
@@ -17,6 +31,7 @@
 		  <input id="commit-msg" type="text" placeholder="Commit message" style="width:300px;">
 		  <button onclick="doCommit()">Commit</button>
 		</div>
+	</div>
 	</div>
   <script src="loadPage.js"></script>
   <script>
@@ -41,9 +56,14 @@
 		  document.getElementById("commit-box").style.display = "none";
 		} else {
 		  files.value.forEach(f => {
-			const li = document.createElement("li");
-			li.textContent = ` ${f}`;
-			list.appendChild(li);
+			const item = document.createElement("div");
+			item.className = "status-item";
+			item.textContent = f;
+			item.onclick = async () => {
+				const fullPath = repoPath.replace(/[\\/]+$/, "") + "/" + f;
+				await fetch("http://localhost:8080/open/?file=" + encodeURIComponent(fullPath));
+			};
+			list.appendChild(item);
 		  });
 		  document.getElementById("commit-box").style.display = "block";
 		}
