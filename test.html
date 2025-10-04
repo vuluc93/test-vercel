@@ -8,6 +8,9 @@
 	.main {
 	  margin-top: 50px;
 	}
+	.main button {
+	  margin-top: 10px;
+	}
 	.status-item {
 	  color: blue;
 	  text-decoration: underline;
@@ -27,7 +30,12 @@
   <a href="#" class="note-btn">Open Note</a>
 	<div class="dashboard" id="dashboard">
 	<div class="main">
-		<button onclick="showGitStatus()">Check Git Status</button>
+		<div>
+			<button onclick="pullGit()">Pull Git</button>
+		</div>
+		<div>
+			<button onclick="showGitStatus()">Check Git Status</button>
+		</div>
 		<ul id="status-list"></ul>
 
 		<div id="commit-box" style="display:none; margin-top:10px;">
@@ -39,6 +47,17 @@
   <script src="loadPage.js"></script>
   <script>
 	const repoPath = "E:/Vercel/test";
+	
+	async function pullGit() {
+	  const res = await fetch("http://localhost:8080/git/pull/", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify({ repo: repoPath })
+	  });
+
+	  const text = await res.text();
+	  alert("Git Pull result:\n" + text);
+	}
 
 	async function showGitStatus() {
 	  const res = await fetch("http://localhost:8080/git/status/", {
