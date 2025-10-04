@@ -8,8 +8,70 @@
 <body>
   <a href="index.html" class="home-btn">Home</a>
   <a href="#" class="note-btn">Open Note</a>
-  <a href="#" class="git-commit">Commit Github</a>
-  <div class="dashboard" id="dashboard"></div>
+  
+	<div class="dashboard" id="dashboard">
+		<button onclick="showGitStatus()">Check Git Status</button>
+		<ul id="status-list"></ul>
+
+		<div id="commit-box" style="display:none; margin-top:10px;">
+		  <input id="commit-msg" type="text" placeholder="Commit message" style="width:300px;">
+		  <button onclick="doCommit()">Commit</button>
+		</div>
+	</div>
   <script src="loadPage.js"></script>
+  <script>
+	const repoPath = "E:/Vercel/test";
+
+	async function showGitStatus() {
+	  const res = await fetch("http://localhost:8080/git/status/", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify({ repo: repoPath })
+	  });
+
+	  const text = await res.text();
+	  const list = document.getElementById("status-list");
+	  list.innerHTML = "";
+
+	  try {
+		const files = JSON.parse(text);
+
+		if (files.length === 0) {
+		  list.innerHTML = "<li>No changes</li>";
+		  document.getElementById("commit-box").style.display = "none";
+		} else {
+		  files.forEach(f => {
+			const li = document.createElement("li");
+			li.textContent = ` ${f.file}`;
+			list.appendChild(li);
+		  });
+		  document.getElementById("commit-box").style.display = "block";
+		}
+	  } catch {
+		alert("Error: " + text);
+	  }
+	}
+	
+	async function doCommit() {
+	  const msg = document.getElementById("commit-msg").value;
+
+	  if (!msg) {
+		alert("Please enter commit message");
+		return;
+	  }
+
+	  const res = await fetch("http://localhost:8080/git/commit/", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify({ repo: repoPath, message: msg })
+	  });
+
+	  const text = await res.text();
+	  alert(text);
+
+	  // Refresh lại danh sách
+	  showGitStatus();
+	}
+  </script>
 </body>
 </html>

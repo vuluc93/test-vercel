@@ -125,20 +125,3 @@ document.querySelectorAll("a.note-btn").forEach(a => {
   });
 });
 
-document.querySelectorAll("a.git-commit").forEach(a => {
-	a.addEventListener("click", (e) => {
-		e.preventDefault();
-		
-		// Gửi request commit
-		fetch("http://localhost:8080/git/commit/", {
-			method: "POST",
-			headers: { "Content-Type": "application/json" },
-			body: JSON.stringify({
-				repo: "E:/Vercel/test",
-				message: "Update dashboard feature"
-			})
-		})
-		.then(r => r.text())
-		.then(t => alert(t));
-	});
-});
