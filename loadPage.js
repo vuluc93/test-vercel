@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const configFile = baseName + ".json";      // "stock.json"
 
   function openTarget(item) {
-    const url = `http://localhost:8080/?file=${encodeURIComponent(item.file)}&search=${encodeURIComponent(item.search)}`;
+    const url = `http://localhost:8080/open/?file=${encodeURIComponent(item.file)}&search=${encodeURIComponent(item.search)}`;
     console.log("openTarget url:", url);
 
     fetch(url)
@@ -111,7 +111,7 @@ document.querySelectorAll("a.note-btn").forEach(a => {
 	// const noteFile = `C:\\Users\\LucVH\\ProcessFiles\\${baseName}.txt`;
   const noteFile = `D:\\LeocSystem\\leocsystem-online\\feature\\${baseName}.txt`;
 
-  const url = `http://localhost:8080/?file=${encodeURIComponent(noteFile)}`;
+  const url = `http://localhost:8080/open/?file=${encodeURIComponent(noteFile)}`;
   
   fetch(url)
     .then((res) => res.text())
@@ -123,4 +123,22 @@ document.querySelectorAll("a.note-btn").forEach(a => {
       alert("Không gọi được server. Bạn đã chạy server.ps1 chưa?");
     });
   });
+});
+
+document.querySelectorAll("a.git-commit").forEach(a => {
+	a.addEventListener("click", (e) => {
+		e.preventDefault();
+		
+		// Gửi request commit
+		fetch("http://localhost:8080/git/commit/", {
+			method: "POST",
+			headers: { "Content-Type": "application/json" },
+			body: JSON.stringify({
+				repo: "E:/Vercel/test",
+				message: "Update dashboard feature"
+			})
+		})
+		.then(r => r.text())
+		.then(t => alert(t));
+	});
 });
