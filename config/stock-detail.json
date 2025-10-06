@@ -83,7 +83,7 @@
       },
       {
         "label": "config endpoints",
-        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\features\\income\\constants.ts",
+        "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-summary-nuxt\\constants\\api.ts",
         "search": "'/income/stock/'"
       }
     ]
