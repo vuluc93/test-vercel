@@ -44,22 +44,22 @@
 		  "search": "_[Bill]_"
 		},
 		{
-		  "label": "contentRendered",
+		  "label": "contentRendered()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
 		  "search": "const contentRendered ="
 		},
 		{
-		  "label": "initHeader",
+		  "label": "initHeader()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
 		  "search": "const initHeader ="
 		},
 		{
-		  "label": "initSpread",
+		  "label": "initSpread()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
 		  "search": "const initSpread ="
 		},
 		{
-		  "label": "deleteBill",
+		  "label": "deleteBill()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
 		  "search": "const deleteBill ="
 		}

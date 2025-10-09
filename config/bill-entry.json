@@ -39,24 +39,29 @@
 		  "search": "_[BillEntry]_"
 		},
 		{
-		  "label": "contentRendered",
+		  "label": "contentRendered()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
 		  "search": "const contentRendered ="
 		},
 		{
-		  "label": "initHeader",
+		  "label": "initHeader()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
 		  "search": "const initHeader ="
 		},
 		{
-		  "label": "initSpread",
+		  "label": "initSpread()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
 		  "search": "const initSpread ="
 		},
 		{
-		  "label": "saveBillDetail",
+		  "label": "saveBillDetail()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
 		  "search": "const saveBillDetail ="
+		},
+		{
+		  "label": "outputClick()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
+		  "search": "const buttonOutput_Click ="
 		}
 	  ]
 	},
