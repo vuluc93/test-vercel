@@ -105,6 +105,11 @@
 		  "label": "-test BillAPI",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill.py",
 		  "search": "_[Bill]_"
+		},
+		{
+		  "label": "get_quote_data()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+		  "search": "def get_quote_data("
 		}
 	  ]
 	},
@@ -123,6 +128,11 @@
 		  "label": "constants",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\constants.py",
 		  "search": "# Bill Type Constants"
+		},
+		{
+		  "label": "-TEMPLATE_SUMMARY",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\constants.py",
+		  "search": "TEMPLATE_SUMMARY_PURCHASE"
 		},
 		{
 		  "label": "config endpoints",
