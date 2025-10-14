@@ -44,6 +44,16 @@
 		  "search": "const contentRendered ="
 		},
 		{
+		  "label": "-renderNewForm()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
+		  "search": "function renderNewForm()"
+		},
+		{
+		  "label": "-renderEditForm()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
+		  "search": "function renderEditForm()"
+		},
+		{
 		  "label": "initHeader()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
 		  "search": "const initHeader ="
@@ -59,9 +69,24 @@
 		  "search": "const saveBillDetail ="
 		},
 		{
+		  "label": "-checkEntry()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
+		  "search": "function checkEntry("
+		},
+		{
+		  "label": "-saveSpread()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
+		  "search": "async function saveSpread()"
+		},
+		{
 		  "label": "outputClick()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
 		  "search": "const buttonOutput_Click ="
+		},
+		{
+		  "label": "-formatBill()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBillEntry.ts",
+		  "search": "function formatBill("
 		}
 	  ]
 	},
@@ -115,6 +140,11 @@
 		  "label": "bill_delete()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
 		  "search": "def bill_delete("
+		},
+		{
+		  "label": "get_quote_data()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+		  "search": "def get_quote_data("
 		}
 	  ]
 	},
@@ -133,6 +163,11 @@
 		  "label": "constants",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\constants.py",
 		  "search": "# Bill Type Constants"
+		},
+		{
+		  "label": "-TEMPLATE_SUMMARY",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\constants.py",
+		  "search": "TEMPLATE_SUMMARY_PURCHASE"
 		},
 		{
 		  "label": "config endpoints",

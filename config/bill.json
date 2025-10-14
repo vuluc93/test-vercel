@@ -62,6 +62,11 @@
 		  "label": "deleteBill()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
 		  "search": "const deleteBill ="
+		},
+		{
+		  "label": "checkQuoteData()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\composables\\useBill.ts",
+		  "search": "async function checkQuoteData("
 		}
 	  ]
 	},
