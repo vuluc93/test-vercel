@@ -21,6 +21,11 @@
 		  "search": "_[BillEntry]_"
 		},
 		{
+		  "label": "ExportWithStampModal",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\components\\ExportWithStampModal.vue",
+		  "search": "_[BillEntry]_"
+		},
+		{
 		  "label": "i18n",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\i18n\\locales\\ja.json",
 		  "search": "\"bill\": {"
@@ -107,6 +112,11 @@
 		  "search": "_[BillEntry]_"
 		},
 		{
+		  "label": "service clientSignature",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\basic_settings\\services\\api.ts",
+		  "search": "export const getSettingClientSignature ="
+		},
+		{
 		  "label": "config enpoint",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\constants.ts",
 		  "search": "_[Bill]_"
@@ -126,6 +136,11 @@
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
 	  "search": "def bill_details(",
 	  "children": [
+		{
+		  "label": "get_dic_client_sign()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
+		  "search": "def get_dic_client_sign("
+		},
 	    {
 		  "label": "-test BillDetailAPI",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill_details.py",
@@ -145,6 +160,16 @@
 		  "label": "get_quote_data()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
 		  "search": "def get_quote_data("
+		},
+		{
+		  "label": "get_dic_client_signature()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\setting\\services\\historical_classes_service.py",
+		  "search": "def get_dic_client_signature("
+		},
+		{
+		  "label": "save_client_signature()",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\setting\\services\\historical_classes_service.py",
+		  "search": "def save_client_signature("
 		}
 	  ]
 	},
@@ -173,6 +198,16 @@
 		  "label": "config endpoints",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\urls.py",
 		  "search": "# Bill endpoints"
+		},
+		{
+		  "label": "ClientSignatureAPIView",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\setting\\urls.py",
+		  "search": "ClientSignatureAPIView.as_view()"
+		},
+		{
+		  "label": "ClientSignatureSerializer",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\setting\\serializers\\historical_classes.py",
+		  "search": "class ClientSignatureRequestSerializer("
 		}
 	  ]
 	}
