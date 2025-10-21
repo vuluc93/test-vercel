@@ -128,7 +128,28 @@
 	  "label": "model BillDetails",
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\bill_details.py",
 	  "search": "class BillDetails(",
-	  "children": []
+	  "children": [
+		{
+		  "label": "model PurchaseMoneys",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchases_moneys.py",
+		  "search": "class PurchaseMoney("
+		},
+		{
+		  "label": "model SundryExpenseMoneys",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\cost\\models\\sundry_expense.py",
+		  "search": "class SundryExpenseMoney("
+		},
+		{
+		  "label": "model PettyCashMoneys",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\petty_cash_moneys.py",
+		  "search": "class PettyCashMoney("
+		},
+		{
+		  "label": "model PettyCashSummaries",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\petty_cash_summaries.py",
+		  "search": "class PettyCashSummary("
+		}
+	  ]
 	},
 	{
 		"id": 5,
@@ -136,11 +157,6 @@
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
 	  "search": "def bill_details(",
 	  "children": [
-		{
-		  "label": "get_dic_client_sign()",
-		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
-		  "search": "def get_dic_client_sign("
-		},
 	    {
 		  "label": "-test BillDetailAPI",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill_details.py",
