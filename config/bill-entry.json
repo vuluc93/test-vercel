@@ -135,9 +135,19 @@
 		  "search": "class PurchaseMoney("
 		},
 		{
+		  "label": "factory PurchaseMoneys",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\factories\\purchase_moneys_factory.py",
+		  "search": "class PurchaseMoneysFactory("
+		},
+		{
 		  "label": "model SundryExpenseMoneys",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\cost\\models\\sundry_expense.py",
 		  "search": "class SundryExpenseMoney("
+		},
+		{
+		  "label": "factory SundryExpense",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\cost\\tests\\factories\\sundry_expense_factory.py",
+		  "search": "class SundryExpenseFactory("
 		},
 		{
 		  "label": "model PettyCashMoneys",
@@ -157,11 +167,6 @@
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
 	  "search": "def bill_details(",
 	  "children": [
-	    {
-		  "label": "-test BillDetailAPI",
-		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill_details.py",
-		  "search": "_[BillEntry]_"
-		},
 		{
 		  "label": "bill_details_update()",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\services\\bill.py",
@@ -195,6 +200,16 @@
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\views\\bill_details.py",
 	  "search": "_[BillEntry]_",
 	  "children": [
+		{
+		  "label": "-test BillDetailAPI",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\tests\\test_bill_details.py",
+		  "search": "_[BillEntry]_"
+		},
+		{
+		  "label": "-test ClientSignatureAPI",
+		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\setting\\tests\\test_client_signature_api.py",
+		  "search": "class ClientSignatureAPITests("
+		},
 		{
 		  "label": "RequestSerializer",
 		  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\sales\\serializers\\bill.py",
