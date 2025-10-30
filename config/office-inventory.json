@@ -1,0 +1,68 @@
+[
+	{
+	  "id": 1,
+	  "label": "Inventories component",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\components\\Inventories.vue",
+	  "search": "_[Inventories]_",
+	  "children": [
+			{
+			  "label": "page index",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\purchase\\inventories\\index.vue",
+			  "search": "_[Inventories]_"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"label": "useInventories.ts",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+		"search": "_[Inventories]_",
+		"children": [
+
+		]
+	},
+	{
+		"id": 3,
+		"label": "service inventories",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\services\\index.ts",
+		"search": "_[Inventories]_",
+		"children": [
+			{
+			  "label": "interface Inventories",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
+			  "search": "interface Inventories {"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"label": "model Inventory",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\inventories.py",
+		"search": "class Inventory(",
+		"children": [
+
+		]
+	},
+	{
+		"id": 5,
+		"label": "inventories_detail()",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
+		"search": "def inventories_detail(",
+		"children": [
+
+		]
+	},
+	{
+		"id": 6,
+		"label": "InventoriesAPIView",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\inventories.py",
+		"search": "class InventoriesAPIView",
+		"children": [
+			{
+			  "label": "InventoriesSerializer",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\serializers\\inventories.py",
+			  "search": "class InventoriesSerializer("
+			}
+		]
+	}
+]
