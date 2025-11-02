@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-	  "label": "BillEntry component",
+	  "label": "BillEntry.vue",
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\components\\BillEntry.vue",
 	  "search": "_[BillEntry]_",
 	  "children": [

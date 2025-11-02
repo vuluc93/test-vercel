@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-	  "label": "Bill component",
+	  "label": "Bill.vue",
 	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\sales\\components\\Bill.vue",
 	  "search": "_[Bill]_",
 	  "children": [
