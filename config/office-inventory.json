@@ -9,6 +9,16 @@
 			  "label": "page index",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\purchase\\inventories\\index.vue",
 			  "search": "_[Inventories]_"
+			},
+			{
+			  "label": "menu 経費",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\top-menu\\composables\\useTopMenuData.ts",
+			  "search": "title: '経費'"
+			},
+			{
+			  "label": "i18n",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\i18n\\locales\\ja.json",
+			  "search": "\"inventories\": {"
 			}
 		]
 	},
@@ -31,6 +41,11 @@
 			  "label": "interface Inventories",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
 			  "search": "interface Inventories {"
+			},
+			{
+			  "label": "config endpoints",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\constants.ts",
+			  "search": "_[Inventories]_"
 			}
 		]
 	},
@@ -47,9 +62,13 @@
 		"id": 5,
 		"label": "inventories_detail()",
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
-		"search": "def inventories_detail(",
+		"search": "_[Inventories]_",
 		"children": [
-
+			{
+			  "label": "inventories_update()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
+			  "search": "def inventories_update("
+			}
 		]
 	},
 	{
@@ -62,6 +81,11 @@
 			  "label": "InventoriesSerializer",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\serializers\\inventories.py",
 			  "search": "class InventoriesSerializer("
+			},
+			{
+			  "label": "config endpoints",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\urls.py",
+			  "search": "path(\"inventories/\""
 			}
 		]
 	}
