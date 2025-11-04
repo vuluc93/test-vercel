@@ -28,7 +28,21 @@
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
 		"search": "_[Inventories]_",
 		"children": [
-
+			{
+			  "label": "selectedSaleChanged()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "const selectedSaleChanged = ("
+			},
+			{
+			  "label": "nextPage()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "const nextPage = ("
+			},
+			{
+			  "label": "handleBeforeLeave()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "const handleBeforeLeave = async"
+			}
 		]
 	},
 	{
