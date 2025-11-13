@@ -29,19 +29,24 @@
 		"search": "_[Inventories]_",
 		"children": [
 			{
-			  "label": "selectedSaleChanged()",
+			  "label": "comboBoxSale_SelectionChanged()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "const selectedSaleChanged = ("
+			  "search": "'selectedSale oldVal'"
 			},
 			{
-			  "label": "nextPage()",
+			  "label": "buttonNextPage_Click()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "const nextPage = ("
+			  "search": "'buttonPreviousPage_Click'"
 			},
 			{
 			  "label": "handleBeforeLeave()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
 			  "search": "const handleBeforeLeave = async"
+			},
+			{
+			  "label": "buttonSave_Click()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "'buttonSave_Click'"
 			}
 		]
 	},
@@ -69,12 +74,16 @@
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\inventories.py",
 		"search": "class Inventory(",
 		"children": [
-
+			{
+			  "label": "model StockPile",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\stock_piles.py",
+			  "search": "class StockPile("
+			}
 		]
 	},
 	{
 		"id": 5,
-		"label": "inventories_detail()",
+		"label": "inventories_index()",
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
 		"search": "_[Inventories]_",
 		"children": [
@@ -82,6 +91,11 @@
 			  "label": "inventories_update()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
 			  "search": "def inventories_update("
+			},
+			{
+			  "label": "inventories_expire()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
+			  "search": "def inventories_expire("
 			}
 		]
 	},
@@ -91,6 +105,16 @@
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\inventories.py",
 		"search": "class InventoriesAPIView",
 		"children": [
+			{
+			  "label": "PurchaseMetaAPIView",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\purchase.py",
+			  "search": "class PurchaseMetaAPIView"
+			},
+			{
+			  "label": "StockPilesAPIView",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\stock_piles.py",
+			  "search": "class StockPilesAPIView"
+			},
 			{
 			  "label": "InventoriesSerializer",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\serializers\\inventories.py",
