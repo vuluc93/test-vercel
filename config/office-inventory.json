@@ -11,9 +11,14 @@
 			  "search": "_[Inventories]_"
 			},
 			{
-			  "label": "menu 経費",
+			  "label": "InventorySync.vue",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\components\\InventorySync.vue",
+			  "search": "_[Inventories]_"
+			},
+			{
+			  "label": "menu 棚卸",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\top-menu\\composables\\useTopMenuData.ts",
-			  "search": "title: '経費'"
+			  "search": "title: '仕入'"
 			},
 			{
 			  "label": "i18n",
@@ -29,24 +34,34 @@
 		"search": "_[Inventories]_",
 		"children": [
 			{
+			  "label": "initHeader()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "function initHeader("
+			},
+			{
+			  "label": "initSpread()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "function initSpread("
+			},
+			{
 			  "label": "comboBoxSale_SelectionChanged()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "'selectedSale oldVal'"
+			  "search": "function comboBoxSale_SelectionChanged("
 			},
 			{
 			  "label": "buttonNextPage_Click()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "'buttonPreviousPage_Click'"
+			  "search": "function buttonNextPage_Click("
 			},
 			{
 			  "label": "handleBeforeLeave()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "const handleBeforeLeave = async"
+			  "search": "function handleBeforeLeave("
 			},
 			{
 			  "label": "buttonSave_Click()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "'buttonSave_Click'"
+			  "search": "function buttonSave_Click("
 			}
 		]
 	},
@@ -62,6 +77,16 @@
 			  "search": "interface Inventories {"
 			},
 			{
+			  "label": "UseInventoriesReturn",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
+			  "search": "interface UseInventoriesReturn"
+			},
+			{
+			  "label": "getMetadata()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\services\\index.ts",
+			  "search": "export const PurchaseService"
+			},
+			{
 			  "label": "config endpoints",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\constants.ts",
 			  "search": "_[Inventories]_"
@@ -75,9 +100,29 @@
 		"search": "class Inventory(",
 		"children": [
 			{
+			  "label": "factory Inventory",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\factories\\inventories_factory.py",
+			  "search": "class InventoryFactory("
+			},
+			{
 			  "label": "model StockPile",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\stock_piles.py",
 			  "search": "class StockPile("
+			},
+			{
+			  "label": "model PurchaseSyncMultiSetting",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_sync_multi_settings.py",
+			  "search": "class PurchaseSyncMultiSetting("
+			},
+			{
+			  "label": "model PurchaseProduct",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_products.py",
+			  "search": "class PurchaseProduct("
+			},
+			{
+			  "label": "model DeliveryMonthlyRecord",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\delivery_monthly_records.py",
+			  "search": "class DeliveryMonthlyRecord("
 			}
 		]
 	},
@@ -96,6 +141,21 @@
 			  "label": "inventories_expire()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
 			  "search": "def inventories_expire("
+			},
+			{
+			  "label": "get_delivery_monthly_records()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\inventories.py",
+			  "search": "def get_delivery_monthly_records("
+			},
+			{
+			  "label": "stockpiles_index()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\stock_piles.py",
+			  "search": "def stockpiles_index("
+			},
+			{
+			  "label": "stockpiles_update()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\stock_piles.py",
+			  "search": "def stockpiles_update("
 			}
 		]
 	},
