@@ -34,14 +34,14 @@
 		"search": "_[Inventories]_",
 		"children": [
 			{
-			  "label": "initHeader()",
+			  "label": "contentRendered()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "function initHeader("
+			  "search": "function contentRendered("
 			},
 			{
-			  "label": "initSpread()",
-			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "function initSpread("
+			  "label": "beforeChangeDivision()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\components\\Inventories.vue",
+			  "search": "useScopedUnsavedChangeConfirm("
 			},
 			{
 			  "label": "comboBoxSale_SelectionChanged()",
@@ -54,14 +54,24 @@
 			  "search": "function buttonNextPage_Click("
 			},
 			{
+			  "label": "buttonSave_Click()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "function buttonSave_Click("
+			},
+			{
 			  "label": "handleBeforeLeave()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
 			  "search": "function handleBeforeLeave("
 			},
 			{
-			  "label": "buttonSave_Click()",
+			  "label": "buttonSync_Click()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
-			  "search": "function buttonSave_Click("
+			  "search": "function buttonSync_Click("
+			},
+			{
+			  "label": "formatInventoryHeader()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
+			  "search": "function formatInventoryHeader("
 			}
 		]
 	},
