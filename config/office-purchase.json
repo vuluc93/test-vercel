@@ -31,8 +31,13 @@
 		"id": 2,
 		"label": "usePurchase.ts",
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
-		"search": "_[Purchase]_",
+		"search": "export function usePurchase(",
 		"children": [
+			{
+				"label": "-test usePurchase",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\purchase\\composables\\usePurchase.test.ts",
+				"search": "import { usePurchase } from"
+			},
 			{
 			  "label": "contentRendered()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
@@ -82,6 +87,11 @@
 		"search": "_[Purchase]_",
 		"children": [
 			{
+				"label": "-test service purchase",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\purchase\\services\\index.spec.ts",
+				"search": "describe('getPurchase'"
+			},
+			{
 			  "label": "interface Purchase",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
 			  "search": "_[Purchase]_"
@@ -106,7 +116,7 @@
 	{
 		"id": 4,
 		"label": "model Purchase",
-		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase.py",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchases.py",
 		"search": "class Purchase(",
 		"children": [
 			{
@@ -115,12 +125,12 @@
 			  "search": "class PurchaseFactory("
 			},
 			{
-				"label": "model PurchaseMoney()",
+				"label": "model PurchaseMoney",
 				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchases_moneys.py",
 				"search": "class PurchaseMoney("
 			},
 			{
-				"label": "model PurchaseSlipMoney()",
+				"label": "model PurchaseSlipMoney",
 				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_slip_moneys.py",
 				"search": "class PurchaseSlipMoney("
 			},
@@ -130,7 +140,7 @@
 			  "search": "class PurchaseSync("
 			},
 			{
-			  "label": "model PurchaseSyncMultiSetting",
+			  "label": "model MultiSetting",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_sync_multi_settings.py",
 			  "search": "class PurchaseSyncMultiSetting("
 			}
@@ -140,7 +150,7 @@
 		"id": 5,
 		"label": "purchase_index()",
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
-		"search": "_[Purchase]_",
+		"search": "def purchase_index(",
 		"children": [
 			{
 			  "label": "purchase_update()",
@@ -179,6 +189,11 @@
 				"label": "PurchaseSyncAPIView",
 				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\purchase.py",
 				"search": "class PurchaseSyncAPIView"
+			},
+			{
+				"label": "-test API purchase",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\test_purchase.py",
+				"search": "def setUp(self)"
 			},
 			{
 			  "label": "PurchaseSerializer",

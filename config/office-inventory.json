@@ -34,6 +34,11 @@
 		"search": "_[Inventories]_",
 		"children": [
 			{
+				"label": "-test useInventories",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\purchase\\composables\\useInventories.test.ts",
+				"search": "import { useInventories }"
+			},
+			{
 			  "label": "contentRendered()",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\useInventories.ts",
 			  "search": "function contentRendered("
@@ -81,6 +86,11 @@
 		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\services\\index.ts",
 		"search": "_[Inventories]_",
 		"children": [
+			{
+				"label": "-test service Inventories",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\tests\\features\\purchase\\services\\index.spec.ts",
+				"search": "describe('InventoriesService'"
+			},
 			{
 			  "label": "interface Inventories",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
@@ -184,6 +194,11 @@
 			  "label": "StockPilesAPIView",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\stock_piles.py",
 			  "search": "class StockPilesAPIView"
+			},
+			{
+				"label": "-test API inventories",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\test_inventories.py",
+				"search": "class InventoriesAPITests"
 			},
 			{
 			  "label": "InventoriesSerializer",
