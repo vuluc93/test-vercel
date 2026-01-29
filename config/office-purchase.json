@@ -1,0 +1,195 @@
+[
+	{
+	  "id": 1,
+	  "label": "Purchase.vue",
+	  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\components\\Purchase.vue",
+	  "search": "_[Purchase]_",
+	  "children": [
+			{
+			  "label": "page index",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\pages\\purchase\\index.vue",
+			  "search": "_[Purchase]_"
+			},
+			{
+			  "label": "PurchaseSync.vue",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\components\\PurchaseSync.vue",
+			  "search": "_[Purchase]_"
+			},
+			{
+			  "label": "menu 仕入",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\top-menu\\composables\\useTopMenuData.ts",
+			  "search": "title: '仕入'"
+			},
+			{
+			  "label": "i18n",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\i18n\\locales\\ja.json",
+			  "search": "\"purchase\": {"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"label": "usePurchase.ts",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+		"search": "_[Purchase]_",
+		"children": [
+			{
+			  "label": "contentRendered()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function contentRendered("
+			},
+			{
+				"label": "warningMessageSyncSetting()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+				"search": "function warningMessageSyncSetting("
+			},
+			{
+			  "label": "comboBox_SelectionChanged()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function comboBox_SelectionChanged("
+			},
+			{
+			  "label": "cellEditEnded()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function cellEditEnded("
+			},
+			{
+			  "label": "buttonSave_Click()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function buttonSave_Click("
+			},
+			{
+			  "label": "handleBeforeLeave()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function handleBeforeLeave("
+			},
+			{
+			  "label": "buttonFoodsSync_Click()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function buttonFoodsSync_Click("
+			},
+			{
+			  "label": "formatPurchaseHeader()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\composables\\usePurchase.ts",
+			  "search": "function formatPurchaseHeader("
+			}
+		]
+	},
+	{
+		"id": 3,
+		"label": "service purchase",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\services\\index.ts",
+		"search": "_[Purchase]_",
+		"children": [
+			{
+			  "label": "interface Purchase",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
+			  "search": "_[Purchase]_"
+			},
+			{
+			  "label": "UsePurchaseReturn",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\types\\index.ts",
+			  "search": "interface UsePurchaseReturn"
+			},
+			{
+			  "label": "getPurchaseSync()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\services\\index.ts",
+			  "search": "async getPurchaseSync("
+			},
+			{
+			  "label": "config endpoints",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\constants.ts",
+			  "search": "_[Purchase]_"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"label": "model Purchase",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase.py",
+		"search": "class Purchase(",
+		"children": [
+			{
+			  "label": "factory Purchase",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\factories\\purchase_factory.py",
+			  "search": "class PurchaseFactory("
+			},
+			{
+				"label": "model PurchaseMoney()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchases_moneys.py",
+				"search": "class PurchaseMoney("
+			},
+			{
+				"label": "model PurchaseSlipMoney()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_slip_moneys.py",
+				"search": "class PurchaseSlipMoney("
+			},
+			{
+			  "label": "model PurchaseSync",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_sync.py",
+			  "search": "class PurchaseSync("
+			},
+			{
+			  "label": "model PurchaseSyncMultiSetting",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\core\\models\\purchase_sync_multi_settings.py",
+			  "search": "class PurchaseSyncMultiSetting("
+			}
+		]
+	},
+	{
+		"id": 5,
+		"label": "purchase_index()",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
+		"search": "_[Purchase]_",
+		"children": [
+			{
+			  "label": "purchase_update()",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
+			  "search": "def purchase_update("
+			},
+			{
+				"label": "purchase_sync_setting_index()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
+				"search": "def purchase_sync_setting_index("
+			},
+			{
+				"label": "purchase_sync_setting_update()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
+				"search": "def purchase_sync_setting_update("
+			},
+			{
+				"label": "save_sales_purchases_from_sync()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
+				"search": "def save_sales_purchases_from_sync("
+			},
+			{
+				"label": "delete_setting_if_empty_data()",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\services\\purchase.py",
+				"search": "def delete_setting_if_empty_data("
+			}
+		]
+	},
+	{
+		"id": 6,
+		"label": "PurchaseAPIView",
+		"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\purchase.py",
+		"search": "class PurchaseAPIView",
+		"children": [
+			{
+				"label": "PurchaseSyncAPIView",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\views\\purchase.py",
+				"search": "class PurchaseSyncAPIView"
+			},
+			{
+			  "label": "PurchaseSerializer",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\serializers\\purchase.py",
+			  "search": "class PurchaseSerializer("
+			},
+			{
+			  "label": "config endpoints",
+			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\urls.py",
+			  "search": "path(\"purchase/\""
+			}
+		]
+	}
+]
