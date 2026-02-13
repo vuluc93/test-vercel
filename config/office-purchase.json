@@ -110,6 +110,16 @@
 			  "label": "config endpoints",
 			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\features\\purchase\\constants.ts",
 			  "search": "_[Purchase]_"
+			},
+			{
+				"label": "type limitedPercent",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\utils\\spreadsheet\\type\\limitedPercent.ts",
+				"search": "class LimitedPercentCellType"
+			},
+			{
+				"label": "validator Dropdown",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-fe\\utils\\validation\\dropdownSpreadSheet.ts",
+				"search": "function applyValidatorDropdown("
 			}
 		]
 	},
@@ -120,9 +130,9 @@
 		"search": "class Purchase(",
 		"children": [
 			{
-			  "label": "factory Purchase",
-			  "file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\factories\\purchase_factory.py",
-			  "search": "class PurchaseFactory("
+				"label": "factory Purchases",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\factories\\purchases_factory.py",
+				"search": "class PurchasesFactory("
 			},
 			{
 				"label": "model PurchaseMoney",
@@ -192,7 +202,7 @@
 			},
 			{
 				"label": "-test API purchase",
-				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\test_purchase.py",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\feature\\test_purchase.py",
 				"search": "def setUp(self)"
 			},
 			{

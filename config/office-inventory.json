@@ -197,7 +197,7 @@
 			},
 			{
 				"label": "-test API inventories",
-				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\test_inventories.py",
+				"file": "d:\\LeocSystem\\leocsystem-online\\leocsystem-api\\apps\\purchase\\tests\\feature\\test_inventories.py",
 				"search": "class InventoriesAPITests"
 			},
 			{
